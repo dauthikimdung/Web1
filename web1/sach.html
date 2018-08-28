@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <!--  dung templet w3c-->
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+         <link rel="stylesheet" href="sach_css.css" type="text/css"  />
+         <title>nha sach hang dau viet nam</title>
+        <!--icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- grid-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!---->
+        <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/bar/bar.css" type="text/css" media="screen" />
+                <!--Thư viện Jquery-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+    </head>   
+    <body>
+       <div class="header">
+            <div class="header-top">
+                <div class="container">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3 p0">
+                             <div class="logo">
+                                 <img id "logo1" src="logo.png"/>
+                            </div>
+                         </div>
+                  
+                  
+           
+                        <div class="col-xs-12 col-md-3 p0">
+                            <div class="support">
+                                <div class="icon_s">
+                                <i class="fa fa-mobile-phone"></i>
+                                </div>
+                                <div class="content_s">
+                                    <p class="bold">hỗ trợ gọi ngay</p>
+                                    <span> <a href="#">(04)66742332 </a></span>
+                                </div>
+                            </div>
+                         </div>  
+            
+                        <div class="col-xs-12  col-md-3 p0">
+                            <div class="address">
+                                <div class="icon_s">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="content_s">
+                                    <p class="bold"> địa chỉ cửa hàng</p>
+                                    <span> Tầng 8 Ladeco,266 Đội Cấn, Hà Nội</span>
+                                    
+                                </div>
+                            </div>
+                         </div>    
+                        <div class="col-xs-12 col-sm-6 col-md-3 p0">     
+                        <div class="heart-account">ddd</div>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom"> 
+                <div class="container">    
+                     <div class="row">     
+                        <div class="list" > 
+                     <ul class="menu" >
+                        <li><a href="/" target="_blank">Trang chủ</a></li>
+                        <li class="menu_hover">
+                            <a href="#" target="_self" >Sản phẩm <i class="fa fa-angle-down"></i></a>
+                            <div class="dropdown_menu">
+                                <a href="#" target="_self">Trái cây </a>
+                                <a href="#" target="_self">Thực phẩm</a>
+                                <a href="/lien-he" target="_self">Rau xanh</a>
+                                <a href="#" target="_self">Đồ uống</a>
+                            </div>
+                        </li>
+                        <li><a href="#" target="_self">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#" target="_self">Tin tức</a></li>
+                        <li><a href="/lien-he" target="_self">Liên hệ</a></li>
+                        <li><a href="#" target="_self">Bản đồ</a></li> 
+                     </ul>
+                            
+                         </div>
+                    </div> 
+                </div> 
+            </div>
+         </div>   
+        
+        <div class="home">
+             <div class="section1">
+                 <div class="slide_index">
+                        <div class="container">
+                          
+                                    <div class="slideshow-container">
+
+                                            <div class="mySlides fade">
+                                            <img src="slider_1.png" style="width:100%"/>
+                                            </div>
+                                            
+                                            <div class="mySlides fade">
+                                            <img src="slider_2.png" style="width:100%"/>
+                                            </div>
+                                            
+                                            <div class="mySlides fade">
+                                            <img src="slider_3.png" style="width:100%"/>
+                                            </div>
+                                            
+                                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                            
+                                         
+                                         <br>
+                                            
+                                        <div style="text-align:center">
+                                            <span class="dot" onclick="currentSlide(1)"></span> 
+                                            <span class="dot" onclick="currentSlide(2)"></span> 
+                                            <span class="dot" onclick="currentSlide(3)"></span> 
+                                        </div>
+                                            
+                                            <script>
+                                                var slideIndex = 0; 
+                                                showSlides();
+
+                                                function plusSlides(n) {
+                                                    clearTimeout(val);
+                                                    slideIndex += n;
+                                                    showSlides();
+                                                }
+
+                                                function currentSlide(n) {
+                                                    clearTimeout(val);
+                                                    slideIndex = n-1;
+                                                    showSlides();
+                                                }
+
+                                                function showSlides() {
+                                                    var i;
+                                                    var slides = document.getElementsByClassName("mySlides");
+                                                    var dots = document.getElementsByClassName("dot");
+                                                    for (i = 0; i < slides.length; i++) {
+                                                    slides[i].style.display = "none";
+                                                    dots[i].className = dots[i].className.replace(" active", "");
+                                                    }
+                                                    slideIndex++;
+                                                    if (slideIndex > slides.length) {slideIndex = 1}
+                                                    if (slideIndex < 1) {slideIndex = slides.length}
+                                                    
+                                                    slides[slideIndex-1].style.display = "block";  
+                                                    dots[slideIndex-1].className += " active";
+                                                    val = setTimeout(showSlides, 2000); // Change image every 2 seconds
+                                                }
+                                            
+                                            </script>
+                                        
+                            </div>
+                 </div>       
+                        
+                </div>
+            </div>
+            <div class="section2">	
+                    <div class="section_banner_index ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="wrap_banner">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <a class="img1" href="#" title="Banner 1">
+                                        <img alt="Banner 1" src="banner_01.png"/>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <a class="img1" href="#" title="Banner 2">
+                                        <img alt="Banner 2" src="banner_02.png"/>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <a class="img1" href="#" title="banner 3">
+                                        <img alt="banner 3" src="banner_03.png"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="section3">
+                 <div class="container">
+                     <div class="title_contain">
+                            <h2>
+                                <span> sản phẩm bán chạy</span>
+
+                            </h2>
+                     </div>
+                     <div class="tab_contain">
+                         
+                        <div class="tab_list">
+                            <ul>
+                                    <li><a href="#" target="_self">Trái cây</a></li>
+                                    <li><a href="#" target="_self">Thực phẩm</a></li>
+                                    <li><a href="/lien-he" target="_self">Nấm</a></li>
+                                    <li><a href="#" target="_self">Rau xanh</a></li>
+                                    <li><a href="#" target="_self">Đồ uống</a></li>
+                            </ul>
+                        </div>
+                         <div class="tab_content">
+                                <div class="contain">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                                    <div class="container" style="height:200px;width:300px">
+                                                        <img src="rau cai.jpg" alt="" >
+                                                        <div class="top-left">
+                                                            <span class="sale_count">
+                                                                 <span class="bf">-30%</span>
+                                                            </span>
+                                                         </div>   
+                                                    </div>     
+                                                     <div><a href="" class="sanpham">Rau cải xanh</a></div>
+                                                     <div class="price">116.000 ₫</div>
+                                                     <div class="rootPrinces">145.000 ₫</div>
+                                             </div>
+                                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                                    <div class="w3-display-container" style="height:200px;width:200px">
+                                                        <img src="thit nac.jpg" alt="">
+                                                        <div class="w3-display-topright w3-container">
+                                                            <span class="sale_count">
+                                                                 <span class="bf">-30%</span>
+                                                            </span>
+                                                         </div>   
+                                                    </div>     
+                                                     <div><a href="" class="sanpham">Rau cải xanh</a></div>
+                                                     <div class="price">116.000 ₫</div>
+                                                     <div class="rootPrinces">145.000 ₫</div>
+                                             </div>
+                                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                                    <div class="w3-display-container" style="height:200px;width:200px">
+                                                        <img src="rau cai.jpg" alt="">
+                                                        <div class="w3-display-topright w3-container">
+                                                            <span class="sale_count">
+                                                                 <span class="bf">-30%</span>
+                                                            </span>
+                                                         </div>   
+                                                    </div>     
+                                                     <div><a href="" class="sanpham">Rau cải xanh</a></div>
+                                                     <div class="price">116.000 ₫</div>
+                                                     <div class="rootPrinces">145.000 ₫</div>
+                                             </div>
+                                            
+                                        </div> 
+                                    </div> 
+                                </div>
+                    
+                            
+                        </div>
+                             
+                             
+                             
+                             
+                             
+                    </div>
+                </div>
+                 
+                 
+             
+            </div>
+
+             <div class="section4">
+                    <div class="container">
+                            <div class="row">
+                                <div class="wrap_item_srv" data-lg-items="2" data-md-items="2" data-xs-items="1" data-sm-items="2" data-margin="15">
+                                    <div class="col-item-srv col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="service_item_ed a">
+                                            <span class="iconx">
+                                                <img alt="Giao hàng miễn phí" src="car_srv.png"/>
+                                            </span>
+                                            <div class="content_srv">
+                                                <span class="title_service">Giao hàng miễn phí</span>
+                                                <span class="content_service">Miễn phí giao hàng với đơn hàng trên 500.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-item-srv col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="service_item_ed b">
+                                            <span class="iconx">
+                                                <img alt="Đảm bảo chất lượng" src="check_srv.png"/>
+                                            </span>
+                                            <div class="content_srv">
+                                                <span class="title_service">Đảm bảo chất lượng</span>
+                                                <span class="content_service">Thực phẩm 100% sạch, an toàn thực phẩm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-item-srv col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="service_item_ed c">
+                                            <span class="iconx">
+                                                <img alt="Tiết kiệm chi phí" src="save_srv.png"/>
+                                            </span>
+                                            <div class="content_srv">
+                                                <span class="title_service">Tiết kiệm chi phí</span>
+                                                <span class="content_service">
+                                                    Giá cả siêu rẻ so với giá thị trường
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                    
+             </div>
+            
+             <div class="section5"></div>
+
+             <div class="section6">
+                 
+             </div>
+
+
+         </div>
+             
+         <div class="section-brand">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-xs-12 ">
+                                <div class="item">
+                                    <a href="#">
+                                        <img alt="Quality" src="brand_01.png"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <img alt="Creative" src="brand_02.png"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <img alt="Vintage" src="brand_03.png"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <img alt="Cofféhop" src="brand_04.png"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            
+               
+       <footer class="footer">		
+                <div class="site-footer">		
+                    <div class="container">			
+                        
+                            <div class="row">
+                                <div class="col-xs-12 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="footer-widget">
+                                        <a class="margin-bottom-0" href="/" title="Fresh Food">
+                                            <img src="logo.png" alt="Fresh Food"/>
+                                        </a>
+                                         <p>
+                                             Được thành lập vào ngày 20/08/2008 với niềm đam mê và khát vọng thành công trong lĩnh vực TMĐT									
+                                        </p>
+                                        <ul class="list-menu-menu_first">
+                                            
+                                            <li>
+                                                <i class="fa fa-map-marker"></i><span class="frist_">Tầng 8 Ladeco, 266 Đội Cấn, Hà Nội, Việt Nam</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-envelope"></i><span  class="frist_"><a href="mailto:support@bizweb.vn">supporr@bizweb.vn</a> </span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-phone"></i><span  class="frist_"><a href="tel:(04)66742332">(04)66742332</a></span>
+                                            </li>
+                                            
+            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                    <div class="footer-widget">
+                                        <span class="foot_title">Hướng dẫn</span>
+
+                                        <ul class="list-menu-menu_second" >
+                                            
+                                            <li class="li_effect"><a href="/mua-hang" title="Mua hàng">Mua hàng</a></li>
+                                            
+                                            <li class="li_effect"><a href="/ky-thuat" title="Kỹ thuật">Kỹ thuật</a></li>
+                                            
+                                            <li class="li_effect"><a href="/dang-ky" title="Đăng ký">Đăng ký</a></li>
+                                            
+                                            <li class="li_effect"><a href="/thanh-toan" title="Thanh toán">Thanh toán</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-3 col-md-3">
+                                    <div class="footer-widget">
+                                        <span class="foot_title">Chính sách</span>
+                                        <ul class="list-menu-menu_second" >
+                                            
+                                            <li class="li_effect"><a href="/doi-tra-hang" title="Đổi trả hàng">Đổi trả hàng</a></li>
+                                            
+                                            <li class="li_effect"><a href="/dam-bao-chat-luong" title="Đảm bảo chất lượng">Đảm bảo chất lượng</a></li>
+                                            
+                                            <li class="li_effect"><a href="/gia-luon-tot-nhat" title="Giá luôn tốt nhất">Giá luôn tốt nhất</a></li>
+                                            
+                                            <li class="li_effect"><a href="/khach-hang-than-thiet" title="Khách hàng thân thiết">Khách hàng thân thiết</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+            
+                                <div class="col-xs-12 col-sm-6 col-lg-3 col-md-3">
+                                    <div class="footer-widget">
+                                        <span class="foot_title">Gửi email</span>
+                                        <br/>
+                                        <span class="text_form">Gửi email nhận khuyến mãi</span>
+                                        <div class="form_subs">
+                                            
+                                            <form action="//dkt.us13.list-manage.com/subscribe/post?u=0bafe4be7e17843051883e746&amp;id=3bdd6e9e3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                                                <button  name="subscribe" id="subscribe"><i class="fa fa-paper-plane"></i></button>
+                                                <input type="email" value="" placeholder="Email của bạn" name="EMAIL" id="mail" aria-label="" >
+                                            </form>
+                                        </div>
+                                        
+                                        <ul class="follow_option">
+                                            <li class="text">Kết nối</li>
+                                            <li>
+                                                <a class="goplus" href="#" title="Theo dõi Google Plus Fresh Food"><i class="fa fa-google-plus"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="#" title="Theo dõi Twitter Fresh Food"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="fb" href="#" title="Theo dõi Facebook Fresh Food"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="in" href="#" title="Theo dõi Linkedin Fresh Food"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                    </div>
+                </div>	
+                
+                
+         </footer>
+            
+    </body>
+ </html>
