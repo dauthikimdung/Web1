@@ -36,7 +36,7 @@
                      <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-3 p0">
                              <div class="logo">
-                                 <img id "logo1" src="./anh/logo.png"/>
+                                 <img id "logo1" src="logo.png"/>
                             </div>
                          </div>
                         <div class="col-xs-12 col-md-3 p0">
@@ -103,15 +103,15 @@
                                     <div class="slideshow-container">
 
                                             <div class="mySlides fade">
-                                            <img src="./anh/slider_1.png" style="width:100%"/>
+                                            <img src="slider_1.png" style="width:100%"/>
                                             </div>
                                             
                                             <div class="mySlides fade">
-                                            <img src="./anh/slider_2.png" style="width:100%"/>
+                                            <img src="slider_2.png" style="width:100%"/>
                                             </div>
                                             
                                             <div class="mySlides fade">
-                                            <img src="./anh/slider_3.png" style="width:100%"/>
+                                            <img src="slider_3.png" style="width:100%"/>
                                             </div>
                                             
                                             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -173,17 +173,17 @@
                             <div class="wrap_banner">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <a class="img1" href="#" title="Banner 1">
-                                        <img alt="Banner 1" src="./anh/banner_01.png"/>
+                                        <img alt="Banner 1" src="banner_01.png"/>
                                     </a>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <a class="img1" href="#" title="Banner 2">
-                                        <img alt="Banner 2" src="./anh/banner_02.png"/>
+                                        <img alt="Banner 2" src="banner_02.png"/>
                                     </a>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <a class="img1" href="#" title="banner 3">
-                                        <img alt="banner 3" src="./anh/banner_03.png"/>
+                                        <img alt="banner 3" src="banner_03.png"/>
                                     </a>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="container" style="height:200px;width:300px">
-                                                        <img src="./anh/rau cai.jpg" alt="" >
+                                                        <img src="rau cai.jpg" alt="" >
                                                         <div class="top-left">
                                                             <span class="sale_count">
                                                                  <span class="bf">-30%</span>
@@ -229,7 +229,7 @@
                                              </div>
                                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="w3-display-container" style="height:200px;width:200px">
-                                                        <img src="./anh/thit nac.jpg" alt="">
+                                                        <img src="thit nac.jpg" alt="">
                                                         <div class="w3-display-topright w3-container">
                                                             <span class="sale_count">
                                                                  <span class="bf">-30%</span>
@@ -242,7 +242,7 @@
                                              </div>
                                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="w3-display-container" style="height:200px;width:200px">
-                                                        <img src="./anh/rau cai.jpg" alt="">
+                                                        <img src="rau cai.jpg" alt="">
                                                         <div class="w3-display-topright w3-container">
                                                             <span class="sale_count">
                                                                  <span class="bf">-30%</span>
@@ -275,7 +275,7 @@
                                     <div class="col-item-srv col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                         <div class="service_item_ed a">
                                             <span class="iconx">
-                                                <img alt="Giao hàng miễn phí" src="./anh/car_srv.png"/>
+                                                <img alt="Giao hàng miễn phí" src="car_srv.png"/>
                                             </span>
                                             <div class="content_srv">
                                                 <span class="title_service">Giao hàng miễn phí</span>
@@ -286,7 +286,7 @@
                                     <div class="col-item-srv col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                         <div class="service_item_ed b">
                                             <span class="iconx">
-                                                <img alt="Đảm bảo chất lượng" src="./anh/check_srv.png"/>
+                                                <img alt="Đảm bảo chất lượng" src="check_srv.png"/>
                                             </span>
                                             <div class="content_srv">
                                                 <span class="title_service">Đảm bảo chất lượng</span>
@@ -297,7 +297,7 @@
                                     <div class="col-item-srv col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                         <div class="service_item_ed c">
                                             <span class="iconx">
-                                                <img alt="Tiết kiệm chi phí" src="./anh/save_srv.png"/>
+                                                <img alt="Tiết kiệm chi phí" src="save_srv.png"/>
                                             </span>
                                             <div class="content_srv">
                                                 <span class="title_service">Tiết kiệm chi phí</span>
@@ -329,22 +329,22 @@
                         <div class="col-lg-12 col-xs-12 ">
                                 <div class="item">
                                     <a href="#">
-                                        <img alt="Quality" src="./anh/brand_01.png"/>
+                                        <img alt="Quality" src="brand_01.png"/>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <img alt="Creative" src="./anh/brand_02.png"/>
+                                        <img alt="Creative" src="brand_02.png"/>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <img alt="Vintage" src="./anh/brand_03.png"/>
+                                        <img alt="Vintage" src="brand_03.png"/>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <img alt="Cofféhop" src="./anh/brand_04.png"/>
+                                        <img alt="Cofféhop" src="brand_04.png"/>
                                     </a>
                                 </div>
                             </div>
@@ -362,7 +362,7 @@
                                 <div class="col-xs-12 col-lg-4 col-md-4 col-sm-6">
                                     <div class="footer-widget">
                                         <a class="margin-bottom-0" href="/" title="Fresh Food">
-                                            <img src="./anh/logo.png" alt="Fresh Food"/>
+                                            <img src="logo.png" alt="Fresh Food"/>
                                         </a>
                                          <p>
                                              Được thành lập vào ngày 20/08/2008 với niềm đam mê và khát vọng thành công trong lĩnh vực TMĐT									
