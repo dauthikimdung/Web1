@@ -71,10 +71,13 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
+/* Position of the "button" change Image */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+.prev {
+    left:0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -121,9 +124,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 4s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 4s;
 }
 
 @-webkit-keyframes fade {
@@ -137,29 +140,32 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 11px}
 }
   /**/
 
 .header {
-    background-image: url("background_header.png");
+    background-image: url("./anh/background_header.png");
     
     
 }
 .header-top {
     display: block;
-    
+    padding-top:20px; 
 }
 
 .p0{
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 0;
 }
 
 .support{
     text-align: center;
 }
+
 .icon_s {
     width: 55px;
     height: 55px;
@@ -170,22 +176,25 @@ img {vertical-align: middle;}
     text-align: center;
     border-radius: 50%;
     color:black;
+    display: inline-block;
 }
 .content_s {
     display: inline-block;
     float: left;
     padding-left: 15px;
     max-width: 255px;
+    text-align: left;
 }
 .content_s .bold{
     font-family: 'Gotham_bold', sans-serif;
     font-size: 14px;
     margin: 0px;
-    color: #333;
+    color: #333;    
+    padding: 0px;
     text-transform: uppercase;
 }
 .content_s span{
-    font-size: 14px;
+    font-size: 13px;
     color:black;
 }
 .list ul{
@@ -255,7 +264,7 @@ img {vertical-align: middle;}
     margin-bottom: 15px;
     padding: 15px 0px;
     min-height: 50px;
-    background-image: url('background_slider.png');
+    background-image: url('./anh/background_slider.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -499,7 +508,7 @@ a.sanpham {
 /**/
 
 .section-brand {
-    background-image: url('background_brand.png');
+    background-image: url('./anh/background_brand.png');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;

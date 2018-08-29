@@ -27,7 +27,6 @@
         <link rel="stylesheet" href="css/bar/bar.css" type="text/css" media="screen" />
                 <!--Thư viện Jquery-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="sach.js"></script>
         
     </head>   
     <body>
@@ -99,36 +98,72 @@
         <div class="home">
              <div class="section1">
                  <div class="slide_index">
-                    <div class="container">
-                        <div class="slideshow-container">
-                            <div class="mySlides fade">
-                            <img src="./anh/slider_1.png" style="width:100%"/>
+                        <div class="container">
+                          
+                                    <div class="slideshow-container">
+
+                                            <div class="mySlides fade">
+                                            <img src="./anh/slider_1.png" style="width:100%"/>
+                                            </div>
+                                            
+                                            <div class="mySlides fade">
+                                            <img src="./anh/slider_2.png" style="width:100%"/>
+                                            </div>
+                                            
+                                            <div class="mySlides fade">
+                                            <img src="./anh/slider_3.png" style="width:100%"/>
+                                            </div>
+                                            
+                                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                            
+                                         
+                                         <br>
+                                            
+                                        <div style="text-align:center">
+                                            <span class="dot" onclick="currentSlide(1)"></span> 
+                                            <span class="dot" onclick="currentSlide(2)"></span> 
+                                            <span class="dot" onclick="currentSlide(3)"></span> 
+                                        </div>
+                                            
+                                            <script>
+                                                var slideIndex = 0; 
+                                                showSlides();
+
+                                                function plusSlides(n) {
+                                                    clearTimeout(val);
+                                                    slideIndex += n;
+                                                    showSlides();
+                                                }
+
+                                                function currentSlide(n) {
+                                                    clearTimeout(val);
+                                                    slideIndex = n-1;
+                                                    showSlides();
+                                                }
+
+                                                function showSlides() {
+                                                    var i;
+                                                    var slides = document.getElementsByClassName("mySlides");
+                                                    var dots = document.getElementsByClassName("dot");
+                                                    for (i = 0; i < slides.length; i++) {
+                                                    slides[i].style.display = "none";
+                                                    dots[i].className = dots[i].className.replace(" active", "");
+                                                    }
+                                                    slideIndex++;
+                                                    if (slideIndex > slides.length) {slideIndex = 1}
+                                                    if (slideIndex < 1) {slideIndex = slides.length}
+                                                    
+                                                    slides[slideIndex-1].style.display = "block";  
+                                                    dots[slideIndex-1].className += " active";
+                                                    val = setTimeout(showSlides, 2000); // Change image every 2 seconds
+                                                }
+                                            
+                                            </script>
+                                        
                             </div>
-                            
-                            <div class="mySlides fade">
-                            <img src="./anh/slider_2.png" style="width:100%"/>
-                            </div>
-                            
-                            <div class="mySlides fade">
-                            <img src="./anh/slider_3.png" style="width:100%"/>
-                            </div>
-                            
-                            <a class="prev" onclick="plusSlides(-2)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(0)">&#10095;</a>
-                            
-                            <br>     
-                            <div style="text-align:center">
-                                <span class="dot" onclick="currentSlide(1)"></span> 
-                                <span class="dot" onclick="currentSlide(2)"></span> 
-                                <span class="dot" onclick="currentSlide(3)"></span> 
-                            </div>
-                                
-                            <script>
-                                showSlides();
-                            </script>
-                            
-                        </div>
-                    </div>
+                 </div>       
+                        
                 </div>
             </div>
             <div class="section2">	
@@ -169,11 +204,11 @@
                          
                         <div class="tab_list">
                             <ul>
-                                <li><a href="#" target="_self">Trái cây</a></li>
-                                <li><a href="#" target="_self">Thực phẩm</a></li>
-                                <li><a href="/lien-he" target="_self">Nấm</a></li>
-                                <li><a href="#" target="_self">Rau xanh</a></li>
-                                <li><a href="#" target="_self">Đồ uống</a></li>
+                                    <li><a href="#" target="_self">Trái cây</a></li>
+                                    <li><a href="#" target="_self">Thực phẩm</a></li>
+                                    <li><a href="/lien-he" target="_self">Nấm</a></li>
+                                    <li><a href="#" target="_self">Rau xanh</a></li>
+                                    <li><a href="#" target="_self">Đồ uống</a></li>
                             </ul>
                         </div>
                          <div class="tab_content">
@@ -285,77 +320,9 @@
                  
              </div>
 
-             <div  class="section7">	
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                               
-                                 <div class="a-position" >  Blog nấu ăn</div>
-                                 <div class="blog row">
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <img class="img_blog" src="whatsinseason-march.jpg"/>
-                                            <div class="author_img"><img src="author.png" alt="Đào Quý Thương"><span class="name_">Viết bởi: Đào Quý Thương</span></div>
-                                            <h3 class="blog-item-name"><a  href="/gia-tang-nang-luc-canh-tranh-cho-nong-san-xuat-khau" >Gia tăng năng lực cạnh tranh cho nông sản xuất khẩu</a></h3>
-                                            <div class="summary_ ">  Hàng nông sản muốn tham gia chuỗi giá trị toàn cầu cần phải cải ti...
-                                            </div>
-                                        </div>
-                                
-                                    
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <img class="img_blog" src="whatsinseason-march.jpg"/>
-                                            <div class="author_img"><img src="author.png" alt="Đào Quý Thương"> <span class="name_">Viết bởi:Đào Quý Thương</span></div>
-                                            <h3 class="blog-item-name"><a  href="/rau-xanh-tang-gia-manh-vi-troi-mua-nguoi-dan-noi-thanh-lao-dao">Rau xanh tăng giá mạnh vì trời mưa </a></h3>
-                                            <div class="summary_ "> Khoảng gần một tuần nay, do ảnh hưởng của những cơn mưa lớn kéo dà...
-                                            </div>
-                                                    
-                                        </div>
-                                </div>    
-                         </div>           
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                    
-                                <div class="a-position" >  ý kiến khách hàng</div>           
-                                    
-                             
-                                        <div class="item_reviews">
-                                            <p class="description_review">Từ ngày có hạt dẻ (bé SURI) trong bụng, mình bắt đầu lên mạng tìm hiểu thông tin về thực phẩm sạch, an toàn và chuỗi cửa hàng bán loại thực phẩm này. Sau một hồi tìm kiếm cũng tìm ra một vài cửa hàng khá nổi tiếng ở Hà Nội, nhưng lại ở khá xa chỗ vợ chồng mình sống nên rất bất tiện mỗi khi đi mua sắm.</p>
-                                            <div class="image_reviews">
-                                                <img src="us" alt="Uyên Mi">
-                                                <div class="info_reviews">
-                                                    <p>Uyên Mi</p>
-                                                    <a href="https://www.tocobi.com">https://www.tocobi.com</a>
-                                                </div>
-                                            </div>
-                                        </div>	
-                                          
-                                        <div class="item_reviews">
-                                            <p class="description_review">Mình là người rất yêu nội trợ nên việc chọn lựa để có một bữa ăn an toàn và sạch sẽ là điều rất quan tâm, đặc biệt là những bà mẹ mang bầu như mình. Hiện nay trên thị trường tràn lan những sản phẩm không rõ nguồn gốc xuất xứ khiến việc lựa chọn trở nên khó khăn hơn. Rất may mình đã tìm được những thứ mình cần tại đây.</p>
-                                            <div class="image_reviews">
-                                                <img src="//bizweb.dktcdn.net/thumb/thumb/100/263/497/themes/635403/assets/us_2.png?1531709649279" alt="Bích Phương">
-                                                <div class="info_reviews">
-                                                    <p>Bích Phương</p>
-                                                    <a href="https://www.dulichdaily.com">https://www.dulichdaily.com</a>
-                                                </div>
-                                            </div>
-                                        </div>	
-                                        
-                                        
-                                        <div class="item_reviews">
-                                            <p class="description_review">Từ khi biết nấu ăn hihi, mình rất yêu thích việc tự tay nấu cho gia đình mình một bữa thật an toàn tiết kiệm, do công việc khá bận rộn nên mình không thể ra chợ để lựa những đồ ăn được, mà đôi khi thực phẩm mua tại chợ lại thiếu an toàn mất vệ sinh, từ khi biết ở đây có cả đặt hàng online và ship tận nơi mình đã cảm thấy yên tâm hơn rất nhiều.</p>
-                                            <div class="image_reviews">
-                                                <img src="//bizweb.dktcdn.net/thumb/thumb/100/263/497/themes/635403/assets/us_3.png?1531709649279" alt="Thuý Quỳnh">
-                                                <div class="info_reviews">
-                                                    <p>Thuý Quỳnh</p>
-                                                    <a href="https://myphamabc.com">https://myphamabc.com</a>
-                                                </div>
-                                            </div>
-                                        </div>	
-                                        
-                         </div>
-                    </div>
-                </div>
-             </div>
-                    
-           
+
+         </div>
+             
          <div class="section-brand">
                 <div class="container">
                     <div class="row">
