@@ -43,7 +43,7 @@ function showSlides1(n) {
     if (n > slides.length) {n = 1}
     if (n < 1) {n = slides.length}
     slides[n-1].style.display = "block";  
-    dots[n-1].className += " active1";
+    dots[n-1].className += " active";
     
 }
 /*show3*/
