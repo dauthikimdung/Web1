@@ -405,7 +405,98 @@ a.sanpham {
     background: #b6e555;
     border: solid 1px transparent;
 }
+/*section7*/
 
+
+.a-position {
+    font-family: 'Gotham_bold', cursive;
+    font-size: 30px;
+    line-height: 22px;
+    color: #333;
+   padding-top:20px;
+   text-align: left;
+}
+.blog{
+    margin-top: 15px;
+}
+.author_img{
+    padding-top: 10px;
+    text-align:left;
+}
+ .author_img img {
+    width: 35px;
+    max-width: 100%;
+    margin-right: 10px;
+    display: inline-block;
+}
+.author_img .name_ {
+    color: #333;
+    font-size: 12px;
+    line-height: 22px;
+   
+}
+.blog-item-name a {
+    font-family: 'Gotham_bold', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    color:black;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+ .summary_ {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+
+
+ .item_reviews {
+    padding: 30px;
+    overflow: hidden;
+    border:1px solid black;
+    margin-top: 20px;
+}
+.item_reviews .description_review {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+ .item_reviews .image_reviews {
+    margin-top: 25px;
+    overflow: hidden;
+}
+.item_reviews .image_reviews img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+    max-height: 100%;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+}
+.item_reviews .image_reviews .info_reviews {
+    float: left;
+    display: inline-block;
+    margin-left: 15px;
+   
+}
+.item_reviews .image_reviews .info_reviews a {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    color: #9bd031;
+    line-height: 22px;
+    text-decoration: none;
+}
+/**/
 
 .section-brand {
     background-image: url('background_brand.png');
