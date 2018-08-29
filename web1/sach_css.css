@@ -71,10 +71,13 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
+/* Position of the "button" change Image */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+.prev {
+    left:0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -121,9 +124,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 4s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 4s;
 }
 
 @-webkit-keyframes fade {
@@ -137,29 +140,32 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 11px}
 }
   /**/
 
 .header {
-    background-image: url("background_header.png");
+    background-image: url("./anh/background_header.png");
     
     
 }
 .header-top {
     display: block;
-    
+    padding-top:20px; 
 }
 
 .p0{
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 0;
 }
 
 .support{
     text-align: center;
 }
+
 .icon_s {
     width: 55px;
     height: 55px;
@@ -170,22 +176,25 @@ img {vertical-align: middle;}
     text-align: center;
     border-radius: 50%;
     color:black;
+    display: inline-block;
 }
 .content_s {
     display: inline-block;
     float: left;
     padding-left: 15px;
     max-width: 255px;
+    text-align: left;
 }
 .content_s .bold{
     font-family: 'Gotham_bold', sans-serif;
     font-size: 14px;
     margin: 0px;
-    color: #333;
+    color: #333;    
+    padding: 0px;
     text-transform: uppercase;
 }
 .content_s span{
-    font-size: 14px;
+    font-size: 13px;
     color:black;
 }
 .list ul{
@@ -255,7 +264,7 @@ img {vertical-align: middle;}
     margin-bottom: 15px;
     padding: 15px 0px;
     min-height: 50px;
-    background-image: url('background_slider.png');
+    background-image: url('./anh/background_slider.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -405,10 +414,101 @@ a.sanpham {
     background: #b6e555;
     border: solid 1px transparent;
 }
+/*section7*/
 
+
+.a-position {
+    font-family: 'Gotham_bold', cursive;
+    font-size: 30px;
+    line-height: 22px;
+    color: #333;
+   padding-top:20px;
+   text-align: left;
+}
+.blog{
+    margin-top: 15px;
+}
+.author_img{
+    padding-top: 10px;
+    text-align:left;
+}
+ .author_img img {
+    width: 35px;
+    max-width: 100%;
+    margin-right: 10px;
+    display: inline-block;
+}
+.author_img .name_ {
+    color: #333;
+    font-size: 12px;
+    line-height: 22px;
+   
+}
+.blog-item-name a {
+    font-family: 'Gotham_bold', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    color:black;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+ .summary_ {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+
+
+ .item_reviews {
+    padding: 30px;
+    overflow: hidden;
+    border:1px solid black;
+    margin-top: 20px;
+}
+.item_reviews .description_review {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+ .item_reviews .image_reviews {
+    margin-top: 25px;
+    overflow: hidden;
+}
+.item_reviews .image_reviews img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+    max-height: 100%;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+}
+.item_reviews .image_reviews .info_reviews {
+    float: left;
+    display: inline-block;
+    margin-left: 15px;
+   
+}
+.item_reviews .image_reviews .info_reviews a {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    color: #9bd031;
+    line-height: 22px;
+    text-decoration: none;
+}
+/**/
 
 .section-brand {
-    background-image: url('background_brand.png');
+    background-image: url('./anh/background_brand.png');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
