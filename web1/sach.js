@@ -38,12 +38,12 @@ function showSlides1(n) {
     var dots = document.getElementsByClassName("dot1");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" active1", "");
     }
     if (n > slides.length) {n = 1}
     if (n < 1) {n = slides.length}
     slides[n-1].style.display = "block";  
-    dots[n-1].className += " active";
+    dots[n-1].className += " active1";
     
 }
 /*show3*/
